@@ -1,0 +1,57 @@
+*{
+    background-color: linen;
+    
+}
+#mainMain{
+    display: flex;
+    justify-content: center;
+    
+}
+#theJokeButton{
+    background-color: red;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    box-shadow: 20px 10px 40px black;
+}
+
+#theJokeButton:active{
+background-color: rgba(255, 0, 0, 0.37);
+}
+
+#theJokeButton:hover{
+background-color: rgba(255, 0, 0, 0.664);
+box-shadow: 20px 10px 40px grey;
+
+}
+
+#rutan{
+    margin-top: 2rem;
+    font-size: larger;
+    font-weight: bolder;
+    width: 18rem;
+    height: 3rem;
+    text-align: center;
+    color: red;
+}
+#content{
+    margin-top: 5rem;
+}
+
+#pjoke{
+    color: white;
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid black;
+    box-shadow: 20px 5px 20px black;
+    font-weight: bolder;
+    background-image: url("img/hkan.bmp");
+    text-shadow: 3px 3px black;
+    text-align: center;
+
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+}
