@@ -5,6 +5,19 @@ body{
     background-size: 100%;
 }
 
+#pjoke{
+  color: linen;
+  width: 20rem;
+  height: 20rem;
+  border: 2px solid black;
+  box-shadow: 20px 5px 20px black;
+  font-weight: bolder;
+  background-image: url(hkan.bmp);
+  text-shadow: 3px 3px gray;
+  text-align: center;
+  font-size: x-large;
+}
+
 nav{
     display: flex;
     justify-content: center;
@@ -81,20 +94,6 @@ box-shadow: 20px 10px 40px grey;
 }
 #content{
     margin-top: 5rem;
-}
-
-#pjoke{
-    color: linen;
-    width: 20rem;
-    height: 20rem;
-    border: 2px solid black;
-    box-shadow: 20px 5px 20px black;
-    font-weight: bolder;
-    background-image: url(hkan.bmp);
-    text-shadow: 3px 3px gray;
-    text-align: center;
-    font-size: x-large;
-
 }
 
 .center{
