@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+    <script src=" https://cdn.jsdelivr.net/npm/underscore@1.13.1/underscore-umd-min.js " defer></script>
+    <script src="js/anime.min.js" defer></script>
+    <script src="js/flickr.js" defer></script>
+
+    <link rel="shortcut icon" href="img/bennytitle.jpg">
+    <title>Sök bilder</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="lowlight">Hem</a>
+        <a href="jokes.html" class="lowlight">"Roliga" skämt</a>
+        <a href="adjective.html" class="lowlight">Adjektivet Håkan</a>
+        <a href="flickr.html" class="highlight">Bildsök</a>
+        <a href=""></a>
+        <a href=""></a>
+    </nav>
+
+    <div class="center">
+        <form id='myForm'>
+            <fieldset>
+                <legend>Här väljer du vad du vill söka på:</legend>
+                <div class='box'>
+                    <div>
+                        Skriv ett sökord:
+                        <input id='imageText' type='text' placeholder='Alfdex' value='Alfdex'>
+                    </div>
+                    <br>
+                    <div>
+                        <label for='imageSize'>Välj en storlek på bilden:</label>
+                        <select id='imageSize' name='imageSize'>
+                            <option value='w'>Mellanstora bilder</option>
+                            <option value='c'>Stora bilder</option>
+                            <option value='m'>Mindre bilder</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for='imageNmbr'>Välj antal bilder du maximalt vill titta på:</label>
+
+                        <select id='imageNmbr' name='imageNmbr'>
+                            <option value='1'>1 bild</option>
+                            <option value='2'>2 bilder</option>
+                            <option value='3'>3 bilder</option>
+                            <option value='6'>6 bilder</option>
+                            <option value='9'>9 bilder</option>
+                            <option value='21'>21 bilder</option>
+                            <option value='100'>100 bilder</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="buttons">
+                        <button id='submit'>Sök Flickr bilder</button>
+                        <button type='reset' id='reset'>Börja om</button>
+                        <br>
+                        <button id="gone">Klicka här för att få en gratis bil</button>
+
+                    </div>
+            </fieldset>
+        </form>
+    </div>
+    <div class="center">
+        <h2 class="battery-log"></h2>
+
+        <h2 id='message'></h2>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+            </div>
+
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button> -->
+            <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+
+    </div>
+
+</body>
+
+</html>
